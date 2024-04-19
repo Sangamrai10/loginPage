@@ -1,2 +1,4 @@
 # loginPage
-functional login page(except RegEx )
+//beginner login page
+login page with localStorage and cookie 
+no validation
