@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .gap {
+    gap: 10px;
+} */
+
+.bg {
+    background-color: red;
+}
+.akatsuki{
+    font-family: "Swanky and Moo Moo", cursive;
+    
+}
+section {
+    background-image: url(./img/akatsuki2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    height: 100vh;
+
+}
+
+.pic {
+    background-image: url(./img/akatsuki1re3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 369px;
+    border-radius: 5px 0 0 5px;
+}
+
+.form {
+    padding: 20px 20px;
+    border-radius: 0 5px 5px 0;
+    backdrop-filter: blur(4px);
+    /* background: white; */
+}
+.child-form > input{
+    margin-bottom: 10px;
+    outline: 0;
+    padding: 6px 29px 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    font-size: small;
+}
+.child-form>button{
+    width: 100%;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    padding: 6px;
+    font-weight: 500;
+}
+a{
+    text-decoration:underline white;
+    color: white;
+
+}
+.aL{
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 0 0 0 5px;
+    transform: rotate(20deg);
+}
